@@ -37,8 +37,6 @@ class ExpenseTracker:
             print("Invalid percentages! Please ensure the sum of percentages is equal to 100.")
             return
 
-        total_expense / num_friends
-
         for i, percentage in enumerate(percentages):
             share = (percentage / 100) * total_expense
             print(f"Friend {i + 1} should pay: Rs{share:.2f}")
