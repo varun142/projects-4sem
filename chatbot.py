@@ -3,7 +3,6 @@ from nltk.chat.util import Chat, reflections
 
 nltk.download('punkt')
 
-# Define patterns and responses for the chatbot
 pairs = [
     [
         r"hello|hi|hey",
@@ -11,11 +10,11 @@ pairs = [
     ],
     [
         r"what is your name?",
-        ["You can call me ChatBot.", "I'm ChatBot!", "I'm an AI chatbot."]
+        ["You can call me ChatBot", "I'm ChatBot!", "I'm an AI chatbot"]
     ],
     [
         r"how are you?",
-        ["I'm good, thanks!", "I'm doing well.", "I'm just a computer program, but I'm here to help!"]
+        ["I'm good, thanks!", "I'm doing well", "I'm just a computer program, but I'm here to help"]
     ],
     [
         r"quit",
